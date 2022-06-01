@@ -1,0 +1,36 @@
+/* --------------------------FEATURE-------------------------- */
+
+.feature__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.feature__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.feature__slogan {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--dominant-text-color);
+}
+
+.feature__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--feature-subtitle-color);
+}
+
+.feature__icon {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

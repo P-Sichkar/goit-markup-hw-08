@@ -1,0 +1,12 @@
+.subscription-btn {
+  &:focus,
+  &:hover {
+    background: #188ce8;
+    color: #ececec;
+
+    .subscription-btn-icon {
+      fill: #ececec;
+      background-color: transparent;
+    }
+  }
+}

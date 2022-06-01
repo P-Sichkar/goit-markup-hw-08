@@ -1,0 +1,23 @@
+/* --------------------------PADDING-SECTION-------------------------- */
+
+.feature,
+.function,
+.team,
+.clients,
+.projects {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+/* --------------------------MARGIN-------------------------- */
+
+.function__title,
+.team-title,
+.filter-list {
+  margin-bottom: var(--margin-title);
+}
+
+.feature__slogan,
+.team-member {
+  margin-bottom: var(--margin-subtitle);
+}
