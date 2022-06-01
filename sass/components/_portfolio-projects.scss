@@ -1,5 +1,10 @@
 /* --------------------------PORTFOLIO-PROJECTS-------------------------- */
 
+.projects {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;

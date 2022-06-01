@@ -3,6 +3,7 @@
 .filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: var(--margin-title);
 }
 
 .filter-item:not(:last-child) {

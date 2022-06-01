@@ -2,9 +2,13 @@
 
 .team {
   background-color: var(--team-background-color);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .team-title {
+  margin-bottom: var(--margin-title);
+
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -34,6 +38,8 @@
 }
 
 .team-member {
+  margin-bottom: var(--margin-subtitle);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
