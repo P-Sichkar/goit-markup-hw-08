@@ -3,8 +3,9 @@
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: center;
-  margin-bottom: 25px;
+  row-gap: 15px;
+  column-gap: 8px;
+  margin-bottom: 40px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
@@ -14,18 +15,6 @@
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
     justify-content: center;
-  }
-}
-
-.filter-item:not(:last-child) {
-  margin-right: 8px;
-  margin-bottom: 15px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 0px;
   }
 }
 
