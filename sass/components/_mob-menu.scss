@@ -102,12 +102,24 @@
 
 .mob-menu-tel-link {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 26px;
   line-height: 1.17;
 
   letter-spacing: 0.02em;
 
   color: #2196f3;
+
+  @media screen and (min-width: 319px) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: 352px) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 415px) {
+    font-size: 34px;
+  }
 }
 
 .mob-menu-mail-link {
@@ -122,38 +134,52 @@
 .mob-menu-soc-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .mob-menu-soc-item {
+  &:not(:first-child) {
+    &::before {
+      margin-right: 10px;
+      content: "";
+      width: 100%;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+    }
+  }
+
   // &:not(:last-child) {
   //   &::after {
-  //     margin-left: auto;
+  //     margin-left: 10px;
   //     content: "";
   //     width: 100%;
   //     border: 1px solid rgba(33, 33, 33, 0.2);
   //   }
   // }
 
-  &:not(:first-child) {
-    padding-left: 10px;
-    margin-left: 10px;
-    border-left: 1px solid rgba(33, 33, 33, 0.2);
-  }
+  // &:not(:first-child) {
+  //   padding-left: 10px;
+  //   margin-left: 10px;
+  //   border-left: 1px solid rgba(33, 33, 33, 0.2);
+  // }
 }
 
 .mob-menu-soc-link {
   width: 100%;
   margin-right: auto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.22;
 
   letter-spacing: 0.02em;
 
   color: #2196f3;
 
-  @media screen and (min-width: 382px) {
-    font-size: 16px;
+  @media screen and (min-width: 319px) {
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 352px) {
+    font-size: 14px;
   }
 
   @media screen and (min-width: 415px) {
