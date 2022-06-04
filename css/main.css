@@ -510,7 +510,7 @@ body {
 
 /* --------------------------HERO-------------------------- */
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc-hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-op.jpeg);
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-position: center;
@@ -521,10 +521,16 @@ body {
   padding-top: 118px;
   padding-bottom: 118px;
 }
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-tab-op.jpeg);
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc-hero.jpg);
   }
 }
 
