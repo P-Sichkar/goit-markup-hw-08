@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
-  <body>
+  <body class=".no-scroll">
     <!-- Header -->
 
     <header class="header-site">
@@ -534,7 +534,97 @@
 
     <!-- Footer -->
 
-    ?
+    <footer>
+      <section class="footer">
+        <div class="container footer-box">
+          <div class="footer-contacts-wrap">
+            <a href="./index.html" class="logo" lang="en"
+              >Web<span class="logo logo--light">Studio</span>
+            </a>
+            <address class="contacts">
+              <ul class="footer-contacts-list list">
+                <li class="footer-contacts-item">
+                  <a
+                    href="https://goo.gl/maps/HDN4hE1YP44BsTAq8"
+                    target="_blank"
+                    rel="noopenr noindex nofollow"
+                    class="footer-address link"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-contacts-item">
+                  <a href="mailto:info@devstudio.com" class="footer-mail link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer-contacts-item">
+                  <a href="tel:+380961111111" class="footer-tel link"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-soc">
+            <h2 class="footer-soc-title">присоединяйтесь</h2>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-item">
+                <a href="#" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icon.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="#" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icon.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="#" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icon.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="#" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icon.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscription">
+            <form>
+              <label class="subscription-label" for="subscription-user-email"
+                >ПОДПИШИТЕСЬ НА РАССЫЛКУ</label
+              >
+              <div class="subscription-wrap">
+                <input
+                  class="subscription-input"
+                  type="email"
+                  name="subscription-user-email"
+                  id="subscription-user-email"
+                  placeholder="E-mail"
+                  required
+                />
+                <button class="subscription-btn" type="submit">
+                  Подписаться
+                  <svg class="subscription-btn-icon" width="20" height="20">
+                    <use href="./images/icon.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+
     <!-- Modal -->
 
     <div class="backdrop is-hidden" data-modal>
@@ -622,7 +712,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
