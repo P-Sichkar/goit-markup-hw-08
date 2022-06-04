@@ -520,6 +520,11 @@ body {
 .header-menu-btn:hover, .header-menu-btn:focus {
   fill: #188ce8;
 }
+@media screen and (min-width: 768px) {
+  .header-menu-btn {
+    display: none;
+  }
+}
 
 .header-menu-close-btn {
   position: absolute;

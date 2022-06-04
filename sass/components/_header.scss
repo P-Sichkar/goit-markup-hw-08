@@ -120,6 +120,10 @@
   &:focus {
     fill: #188ce8;
   }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .header-menu-close-btn {
