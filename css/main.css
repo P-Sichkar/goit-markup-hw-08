@@ -863,8 +863,6 @@ body {
 
 /* --------------------------FUNCTION-------------------------- */
 .function {
-  padding-top: 0px;
-  padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
 @media screen and (max-width: 1200px) {
@@ -919,7 +917,7 @@ body {
 }
 
 .team-title {
-  margin-bottom: var(--margin-title);
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
@@ -929,6 +927,7 @@ body {
 @media screen and (min-width: 1200px) {
   .team-title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
