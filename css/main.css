@@ -1423,6 +1423,10 @@ body {
   overflow: hidden;
 }
 
+.projects-pict {
+  width: 100%;
+}
+
 .projects-lable {
   font-size: 18px;
   line-height: 1.56;
