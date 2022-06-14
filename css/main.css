@@ -440,6 +440,10 @@ body {
 /* --------------------------HEADER-------------------------- */
 .header-site {
   border-bottom: 1px solid #ececec;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   /* box-shadow: 0px 0px 2px 0px #ececec; */
   /* padding-top: 25px;
   padding-bottom: 25px; */
@@ -540,6 +544,17 @@ body {
   .header-mail__icon,
 .header-tel__icon {
     margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    padding-top: 65px;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 80px;
   }
 }
 
@@ -1464,6 +1479,7 @@ body {
 
 /* -------------------------- BACKDROP --------------------------  */
 .backdrop {
+  z-index: 2;
   position: fixed;
   top: 0;
   width: 100%;
