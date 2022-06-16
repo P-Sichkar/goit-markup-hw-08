@@ -1036,6 +1036,38 @@ body {
   fill: var(--icon-main-focus-color);
 }
 
+[data-aos=left-animation] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos=left-animation].aos-animate {
+  opacity: 1;
+}
+@media screen and (min-width: 1200px) {
+  [data-aos=left-animation] {
+    transform: translateY(100px);
+  }
+  [data-aos=left-animation].aos-animate {
+    transform: translateX(0);
+  }
+}
+
+[data-aos=right-animation] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos=right-animation].aos-animate {
+  opacity: 1;
+}
+@media screen and (min-width: 1200px) {
+  [data-aos=right-animation] {
+    transform: translateY(-100px);
+  }
+  [data-aos=right-animation].aos-animate {
+    transform: translateX(0);
+  }
+}
+
 /* --------------------------CLIENTS-------------------------- */
 .clients {
   padding-top: 60px;

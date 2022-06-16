@@ -115,3 +115,37 @@
     fill: var(--icon-main-focus-color);
   }
 }
+
+[data-aos="left-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 1200px) {
+    transform: translateY(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
+
+[data-aos="right-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 1200px) {
+    transform: translateY(-100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
